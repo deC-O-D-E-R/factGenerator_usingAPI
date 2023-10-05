@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-origin: 0;
+}
+h1{
+    margin-top: 20px;
+    background-image: linear-gradient(120deg, orange 0%, white 100%);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+h2{
+    margin-bottom: 10px;
+}
+.container{
+    min-height: 100vh;
+    background-color: RGB(239, 192, 80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.innerdiv{
+    padding: 20px;
+    height: 200px;
+    width: 500px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 40px;
+}
+
+button{
+    margin-top: 35px;
+    font-size: x-large;
+    color: black;
+    background-color: rgb(10, 210, 10);
+    padding: 6px;
+    box-shadow: 2px 2px 2px black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+p{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 430px;
+    font-size: 50px;
+}
+
